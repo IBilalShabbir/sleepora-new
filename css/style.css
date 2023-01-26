@@ -6251,7 +6251,7 @@ input[type="password"]::-ms-reveal {
   line-height: 23px;
 }
 .slider_holder .left-slide-holde .s-box {
-  margin: 20px 0;
+  margin: 20px 5px;
   min-height: inherit;
   padding: 10px 10px 20px;
 }
@@ -9012,6 +9012,9 @@ div.ck-editor__editable {
   }
   .video_section .video_holder .text-box {
     width: 170px;
+  }
+  .slider_holder {
+    padding-left: 0em !important;
   }
   .video_section .video_holder .button {
     width: 130px;
