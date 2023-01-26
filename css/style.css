@@ -518,10 +518,14 @@ img {
   margin: -125px auto 0;
   justify-content: center;
   background: #ffffff;
+  border: 1px solid #ffffff;
   box-shadow: -8px -8px 20px rgba(122, 134, 151, 0.25),
     8px 8px 20px rgba(0, 0, 0, 0.25);
 }
-
+.mind_holder .mind_columns .center-holder:hover {
+  box-shadow: -8px -8px 20px rgb(123 139 160 / 77%),
+    8px 8px 20px rgb(0 0 0 / 25%);
+}
 .mind_holder .mind_columns .center-img-holder {
   width: 100%;
   height: 100%;
@@ -535,7 +539,7 @@ img {
 }
 .mind_holder .mind_columns .center-img-holder em {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 28px;
   text-align: center;
   font-style: normal;
@@ -12134,7 +12138,9 @@ div.ck-editor__editable {
     height: 250px;
     margin: 0 0 20px;
   }
-
+  .mind_holder .mind_columns .center-img-holder em {
+    font-size: 15px;
+  }
   .sleep-score-holder .sleep_frame .bar-holder .column .bottom-text {
     white-space: nowrap;
     word-break: normal;
@@ -13623,9 +13629,7 @@ div.ck-editor__editable {
     max-width: 70px;
     margin: -20px 0 0 -6px;
   }
-  .mind_holder {
-    width: 76%;
-  }
+
   .mind_holder .mind_columns .center-holder {
     width: 110px;
     height: 110px;
@@ -13640,8 +13644,10 @@ div.ck-editor__editable {
     line-height: 14px;
   }
   .mind_holder .mind_columns .column .holder_1 {
-    width: 47%;
     padding: 10px;
+  }
+  .mind_holder .mind_columns .column .holder_1 .img-holder img {
+    width: 40px;
   }
   .mind_holder .mind_columns .center-img-holder {
     padding: 10px 29px 15px;
@@ -15129,9 +15135,7 @@ div.ck-editor__editable {
     max-width: 70px;
     margin: -20px 0 0 -6px;
   }
-  .mind_holder {
-    width: 76%;
-  }
+
   .mind_holder .mind_columns .center-holder {
     width: 110px;
     height: 110px;
@@ -15145,9 +15149,9 @@ div.ck-editor__editable {
     font-size: 12px;
     line-height: 14px;
   }
-  .mind_holder .mind_columns .column .holder_1 {
-    width: 47%;
-    padding: 10px;
+  .mind_holder .mind_columns .center-holder {
+    width: 98px;
+    height: 98px;
   }
   .mind_holder .mind_columns .center-img-holder {
     padding: 10px 29px 15px;
