@@ -4310,9 +4310,9 @@ input[type="password"]::-ms-reveal {
   box-shadow: -5px -5px 14px rgba(122, 134, 151, 0.25),
     5px 5px 14px rgba(0, 0, 0, 0.25);
 }
-.slider_holder .slick-initialized .slick-slide {
+/* .slider_holder .slick-initialized .slick-slide {
   padding: 0 10px;
-}
+} */
 .slider_holder .s-box .month {
   color: #fff;
   display: block;
@@ -4364,7 +4364,8 @@ input[type="password"]::-ms-reveal {
   background: url(../img/calendar-2.png) no-repeat;
 }
 .slider_holder .slider-nav {
-  max-width: 65%;
+  max-width: 100%;
+  max-width: 900px;
   /* margin: 0 auto 20px; */
   margin: 25px 24px 20px;
 }
@@ -4472,7 +4473,7 @@ input[type="password"]::-ms-reveal {
 }
 .slider-for .slick-content .left-content .sleep-list li span {
   color: #000;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 28px;
   font-weight: 400;
 }
@@ -4485,7 +4486,7 @@ input[type="password"]::-ms-reveal {
 }
 .slider-for .slick-content .left-content .sleep-list li select {
   border: 0;
-  width: 126px;
+  width: 140px;
   height: 38px;
   padding: 4px 8px;
   color: #687b9e;
@@ -8231,9 +8232,9 @@ div.ck-editor__editable {
   .anixety-holder {
     margin: 100px 0 0 80px;
   }
-  .slider_holder .slick-initialized .slick-slide {
+  /* .slider_holder .slick-initialized .slick-slide {
     padding: 0px 0px;
-  }
+  } */
 }
 @media (max-width: 1630px) {
   .prescription-holder .column-holder .column-3 {
@@ -8272,6 +8273,10 @@ div.ck-editor__editable {
   .editor_holder .left-img span {
     font-size: 12px;
     margin-bottom: 40px;
+  }
+  .slider_holder {
+    max-width: 90%;
+    margin: 80px auto;
   }
 }
 @media (max-width: 1500px) {
@@ -8314,10 +8319,6 @@ div.ck-editor__editable {
     margin: 240px 0 auto 30px;
   }
 
-  .slider_holder {
-    max-width: 80%;
-    margin: 80px auto;
-  }
   .video-slider {
     width: 56%;
     margin: 60px 0 0 22%;
@@ -8384,6 +8385,10 @@ div.ck-editor__editable {
   }
   .editor_holder .left-img span {
     margin-bottom: 2px;
+  }
+  .slider_holder {
+    max-width: 95%;
+    margin: 80px auto;
   }
 }
 
@@ -8491,7 +8496,9 @@ div.ck-editor__editable {
   .communicate-holder .column.center .center-chat img.curve-2 {
     left: -105px;
   }
-
+  .slider_holder .s-box .day {
+    font-size: 15px;
+  }
   .prescription-holder {
     max-width: 850px;
   }
@@ -8813,9 +8820,7 @@ div.ck-editor__editable {
   .slider-for .slick-content .left-content .sleep-list li span {
     font-size: 15px;
   }
-  .slider-for .slick-content .left-content .sleep-list li select {
-    width: 118px;
-  }
+
   .slider-for .slick-content .right-content h3 {
     font-size: 18px;
     line-height: 20px;
@@ -10114,8 +10119,10 @@ div.ck-editor__editable {
 }
 @media (max-width: 1350px) {
   .slider_holder .slider-nav {
-    margin: 0 0 auto 20px;
+    margin: 0 0 auto 30px;
+    max-width: 780px;
   }
+
   .communicate-holder .column.center .center-chat img.curve-1 {
     left: -40px;
   }
@@ -10136,9 +10143,7 @@ div.ck-editor__editable {
     padding-left: 0em;
     margin-left: 10px;
   }
-  .slider_holder {
-    max-width: 90%;
-  }
+
   .carousel-slider-holder {
     margin: 100px 0 0 50px;
   }
@@ -10176,9 +10181,6 @@ div.ck-editor__editable {
   .mind_holder .mind_columns .center-holder {
     width: 250px;
     height: 250px;
-  }
-  .slider_holder {
-    max-width: 91%;
   }
 
   .slider-for .slick-content {
@@ -10431,9 +10433,7 @@ div.ck-editor__editable {
   .slider-for .slick-content .left-content .sleep-list li span {
     font-size: 15px;
   }
-  .slider-for .slick-content .left-content .sleep-list li select {
-    width: 118px;
-  }
+
   .slider-for .slick-content .right-content h3 {
     font-size: 18px;
     line-height: 20px;
@@ -12143,9 +12143,9 @@ div.ck-editor__editable {
     max-width: 86%;
     margin: 0 auto;
   }
-  .slider_holder .slick-initialized .slick-slide {
+  /* .slider_holder .slick-initialized .slick-slide {
     padding: 0px 10px;
-  }
+  } */
   .support-holder {
     margin-right: auto !important;
     margin-top: 2em;
@@ -12669,6 +12669,7 @@ div.ck-editor__editable {
     margin: 0 0 40px;
     flex-direction: column-reverse;
   }
+  
   .video_section .video_holder .text-box {
     width: 100%;
     margin: 0 0 20px;
