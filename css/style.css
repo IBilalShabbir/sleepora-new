@@ -4128,6 +4128,9 @@ input[type="password"]::-ms-reveal {
   margin: 0 auto;
   position: relative;
 }
+.new__circle {
+  right: -50px !important;
+}
 .new-circle ul {
   margin: 0;
   padding: 0;
@@ -8388,6 +8391,9 @@ div.ck-editor__editable {
   .calander-holder {
     justify-content: space-between;
   }
+  .new__circle {
+    right: 0;
+  }
   .new-circle {
     right: -50px;
   }
@@ -8397,6 +8403,7 @@ div.ck-editor__editable {
   .wrapper-new .holder-new {
     padding-bottom: 10em;
   }
+
   #accordion .panel {
     flex: 1;
     max-width: 100%;
@@ -12247,6 +12254,9 @@ div.ck-editor__editable {
     }
     .sleep-score-holder .sleep-plan .plan-columns .column .txt-box {
       /*width: 59%;*/
+  .new__circle {
+    right: 0px !important;
+  }
 }
 .sleep-score-holder .sleep-plan .plan-columns .column .img-box {
   width: 30px;
