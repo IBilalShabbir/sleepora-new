@@ -4403,10 +4403,34 @@ input[type="password"]::-ms-reveal {
   padding: 20px 30px 20px 20px;
   justify-content: space-between;
 }
+.slider-for .slick__content {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  /*flex-wrap: wrap;*/
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px 30px 20px 20px;
+  flex-direction: column !important;
+}
 .slider-for .slick-content .left-content {
   width: 66%;
 }
+.slider-for .slick__content .left-content {
+  width: 100% !important;
+}
 .slider-for .slick-content .left-content h2 {
+  color: #000;
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0 0 37px;
+  line-height: 34px;
+  position: static;
+  padding: 20px 0 0 20px;
+  letter-spacing: 0.015em;
+}
+.slick__content__left__content__h2 {
   color: #000;
   display: block;
   font-size: 30px;
@@ -4476,6 +4500,22 @@ input[type="password"]::-ms-reveal {
 }
 .slider-for .slick-content .right-content {
   width: 30%;
+}
+.right__content .btn-holder {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 2em;
+}
+.right__content .btn-holder a {
+  height: 40px;
+  background-color: #e0de47;
+  color: #ffffff;
+  padding: 0em 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
 }
 .slider-for .slick-content .right-content .box-1 {
   padding: 20px;
@@ -12145,6 +12185,7 @@ div.ck-editor__editable {
     white-space: nowrap;
     word-break: normal;
   }
+
   /*#wrapper{
 =======
     .prescription-holder {
@@ -14001,14 +14042,8 @@ div.ck-editor__editable {
     line-height: 18px;
     margin: 0 0 20px;
   }
-  .slider-for .slick-content .left-content .sleep-list li span {
-    font-size: 8px;
-    line-height: 12px;
-  }
+
   .slider-for .slick-content .left-content .sleep-list li select {
-    font-size: 5px;
-    width: 52px;
-    height: 20px;
     background: #e3edf7 url(../img/button.png) no-repeat 124% 3px;
     background-size: 70% 70%;
   }
@@ -15509,14 +15544,8 @@ div.ck-editor__editable {
     line-height: 18px;
     margin: 0 0 20px;
   }
-  .slider-for .slick-content .left-content .sleep-list li span {
-    font-size: 8px;
-    line-height: 12px;
-  }
+
   .slider-for .slick-content .left-content .sleep-list li select {
-    font-size: 5px;
-    width: 52px;
-    height: 20px;
     background: #e3edf7 url(../img/button.png) no-repeat 124% 3px;
     background-size: 70% 70%;
   }
