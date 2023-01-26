@@ -7392,7 +7392,7 @@ a.plyr__controls__item.plyr__control:hover,
 .calander-holder {
   display: flex;
   max-width: 1110px;
-  margin: 240px auto 40px;
+  margin: 160px auto 40px;
 }
 .calander-holder .left-calc {
   width: 35.5%;
@@ -8321,7 +8321,7 @@ div.ck-editor__editable {
     margin-left: 2em;
   }
   .calander-holder {
-    margin: 240px 0 auto 30px;
+    margin: 160px 0 auto 30px;
   }
 
   .video-slider {
@@ -8672,7 +8672,7 @@ div.ck-editor__editable {
   }
   .calander-holder {
     max-width: 100%;
-    margin: 120px 80px;
+    margin: 160px 80px;
   }
   .calander-holder .left-calc {
     width: 39%;
@@ -10274,7 +10274,7 @@ div.ck-editor__editable {
   }
   .calander-holder {
     max-width: 100%;
-    margin: 120px 80px;
+    margin: 160px 80px;
   }
   .calander-holder .left-calc {
     width: 39%;
@@ -12120,7 +12120,7 @@ div.ck-editor__editable {
     margin: 100px auto;
   }
   .calander-holder {
-    margin: 240px auto;
+    margin: 160px auto;
   }
   .excersice-video-holder {
     max-width: 900px;
@@ -14080,7 +14080,7 @@ div.ck-editor__editable {
     height: 50px;
   }
   .calander-holder {
-    margin: 100px 10px;
+    margin: 160px 10px;
   }
   .time-holder {
     padding: 20px;
@@ -15582,7 +15582,7 @@ div.ck-editor__editable {
     height: 50px;
   }
   .calander-holder {
-    margin: 100px 10px;
+    margin: 160px 10px;
   }
   .time-holder {
     padding: 20px;
