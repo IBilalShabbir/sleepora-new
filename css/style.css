@@ -6148,7 +6148,7 @@ input[type="password"]::-ms-reveal {
   max-width: 1150px;
   background: #ffffff;
   border-radius: 20px;
-  margin: 140px auto;
+  margin: 160px auto;
   padding: 20px 40px 40px 40px;
   box-shadow: -8px -8px 20px rgba(122, 134, 151, 0.25),
     8px 8px 20px rgba(0, 0, 0, 0.25);
@@ -8272,7 +8272,7 @@ div.ck-editor__editable {
     max-width: 800px;
   }
   .prescription-holder {
-    margin: 140px auto 0 100px;
+    margin: 160px auto 0 100px;
   }
   .excersice-video-holder {
     margin: 140px auto 0 100px;
@@ -8351,7 +8351,7 @@ div.ck-editor__editable {
     margin: 40px 0 0 30px;
   }
   .prescription-holder {
-    margin: 140px auto 0 40px;
+    margin: 160px auto 0 40px;
   }
   .excersice-video-holder {
     margin: 140px auto 0 40px;
@@ -8386,7 +8386,7 @@ div.ck-editor__editable {
   }
 
   .prescription-holder {
-    margin: 140px auto 0 20px;
+    margin: 160px auto 0 20px;
   }
   .circle {
     margin: 250px 0 auto 250px;
@@ -8417,13 +8417,19 @@ div.ck-editor__editable {
   .new-circle {
     right: -50px;
   }
+  .prescription-holder .column-holder .column-3 p {
+    width: 100% !important;
+    text-align: left;
+  }
   .stick-holder {
     margin: 100px auto;
   }
   .wrapper-new .holder-new {
     padding-bottom: 10em;
   }
-
+  .prescription-holder .column-holder .column-2 p {
+    text-align: left;
+  }
   #accordion .panel {
     flex: 1;
     max-width: 100%;
@@ -9150,7 +9156,7 @@ div.ck-editor__editable {
   }
   .prescription-holder {
     padding: 20px;
-    margin: 120px 120px 0 20px;
+    margin: 160px 120px 0 20px;
   }
   .prescription-holder .column-1 {
     font-size: 22px;
@@ -11636,7 +11642,7 @@ div.ck-editor__editable {
   } */
 
   .prescription-holder {
-    margin: 120px auto;
+    margin: 160px auto;
   }
   .prescription-holder .column-1 {
     font-size: 16px;
@@ -12127,7 +12133,7 @@ div.ck-editor__editable {
   .prescription-holder {
     width: calc(100% - 1em);
     max-width: 100%;
-    margin: 100px auto;
+    margin: 160px auto;
   }
   .calander-holder {
     margin: 160px auto;
@@ -13278,7 +13284,7 @@ div.ck-editor__editable {
     min-height: inherit;
   }
   .prescription-holder {
-    margin: 120px auto;
+    margin: 160px auto;
   }
   .prescription-holder .column-1 {
     font-size: 8px;
@@ -13287,8 +13293,8 @@ div.ck-editor__editable {
   .prescription-holder .column-holder .column-2 p em,
   .prescription-holder .column-holder .column-3 p,
   .prescription-holder .column-holder .column-2 p {
-    font-size: 8px;
-    line-height: 10px;
+    font-size: 14px;
+    line-height: 18px;
   }
   .prescription-holder .column-holder .column-2 span {
     font-size: 7px;
@@ -14783,8 +14789,8 @@ div.ck-editor__editable {
   .prescription-holder .column-holder .column-2 p em,
   .prescription-holder .column-holder .column-3 p,
   .prescription-holder .column-holder .column-2 p {
-    font-size: 8px;
-    line-height: 10px;
+    font-size: 12px;
+    line-height: 18px;
   }
   .prescription-holder .column-holder .column-2 span {
     font-size: 7px;
