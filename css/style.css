@@ -4981,7 +4981,7 @@ input[type="password"]::-ms-reveal {
 /*INSIGHT*/
 .middle-slide-holder {
   max-width: 750px;
-  margin: 180px auto;
+  margin: 120px auto;
 }
 
 .session-list {
@@ -9258,7 +9258,6 @@ div.ck-editor__editable {
   }
   .middle-slide-holder {
     max-width: 100%;
-    margin: 180px auto;
     margin-bottom: 0px;
   }
   .session-list li {
@@ -10072,7 +10071,7 @@ div.ck-editor__editable {
     width: 330px;
   }
   .middle-slide-holder {
-    margin: 180px 0 auto 100px;
+    margin: 120px 0 auto 100px;
   }
 }
 
@@ -10864,7 +10863,7 @@ div.ck-editor__editable {
   }
   .middle-slide-holder {
     max-width: 100%;
-    margin: 180px auto;
+    margin: 120px auto;
     margin-bottom: 0px;
   }
   .session-list li {
@@ -12133,7 +12132,7 @@ div.ck-editor__editable {
     max-width: 100%;
   }
   .middle-slide-holder {
-    margin: 180px auto;
+    margin: 120px auto;
   }
   .mind_holder {
     margin: 0 auto;
@@ -12342,7 +12341,7 @@ div.ck-editor__editable {
 }
 .session-list li {
   font-size: 14px;
-  padding: 3px;
+  padding: 10px;
 }
 .journal-holder .journal-head {
   font-size: 22px;
@@ -12669,7 +12668,7 @@ div.ck-editor__editable {
     margin: 0 0 40px;
     flex-direction: column-reverse;
   }
-  
+
   .video_section .video_holder .text-box {
     width: 100%;
     margin: 0 0 20px;
@@ -13501,9 +13500,7 @@ div.ck-editor__editable {
   .session-list {
     padding: 0 16px;
   }
-  .session-list li {
-    font-size: 13px;
-  }
+
   .journal-holder {
     margin: 100px 20px;
   }
@@ -15000,7 +14997,7 @@ div.ck-editor__editable {
     padding: 0 16px;
   }
   .session-list li {
-    font-size: 13px;
+    font-size: 14px;
   }
   .journal-holder {
     margin: 100px 20px;
