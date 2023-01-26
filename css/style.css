@@ -6707,7 +6707,7 @@ input[type="password"]::-ms-reveal {
   padding: 30px 30px;
   background: #ffffff;
   border-radius: 20px;
-  margin: 260px auto 0;
+  margin: 160px auto 0;
   /*box-shadow: -8px -8px 20px rgba(122, 134, 151, 0.25), 8px 8px 20px rgba(0, 0, 0, 0.25);*/
   box-shadow: -5px -4px 9px 2px rgb(255 255 255 / 50%),
     4px 4px 6px rgb(104 132 157 / 20%);
@@ -9253,7 +9253,7 @@ div.ck-editor__editable {
   .health-table {
     width: calc(100% - 1em);
     padding: 30px 20px;
-    margin: 100px auto;
+    margin: 160px auto;
   }
   .health-table table th,
   .health-table table td {
@@ -10858,7 +10858,7 @@ div.ck-editor__editable {
   .health-table {
     width: calc(100% - 1em);
     padding: 30px 20px;
-    margin: 100px auto;
+    margin: 160px auto;
   }
   .health-table table th,
   .health-table table td {
@@ -12129,7 +12129,7 @@ div.ck-editor__editable {
     max-width: 890px;
     padding-left: 30px;
     margin-left: 0;
-    margin: 260px auto;
+    margin: 160px auto;
   }
   .slider-for .slick-content {
     max-width: 100%;
