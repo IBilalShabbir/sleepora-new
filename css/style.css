@@ -5242,8 +5242,8 @@ input[type="password"]::-ms-reveal {
 
 /*bespoke-holder*/
 .bespoke-holder {
-  max-width: 900px;
-  margin: 20px auto 0;
+  max-width: 1150px;
+  margin: 160px auto 0;
 }
 .bespoke-holder .bespoke-columns {
   display: flex;
@@ -5253,6 +5253,9 @@ input[type="password"]::-ms-reveal {
 .bespoke-holder .bespoke-columns .column {
   width: 28%;
   padding: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   background: #ffffff;
   border-radius: 20px;
@@ -5267,7 +5270,9 @@ input[type="password"]::-ms-reveal {
   letter-spacing: 0.015em;
   color: #f5d470;
   min-height: 63px;
-  margin: 0 0 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .bespoke-holder .bespoke-columns .column p {
   font-weight: 400;
@@ -5305,6 +5310,7 @@ input[type="password"]::-ms-reveal {
 }
 .bespoke-holder .bespoke-columns .column .bs-list {
   margin: 0;
+  margin-top: 1em;
   padding: 0;
   list-style: none;
 }
@@ -8236,6 +8242,10 @@ div.ck-editor__editable {
 @media (max-width: 1745px) {
   .anixety-holder {
     margin: 100px 0 0 80px;
+  }
+  .bespoke-holder {
+    max-width: 900px;
+    margin: 160px auto 0;
   }
   /* .slider_holder .slick-initialized .slick-slide {
     padding: 0px 0px;
