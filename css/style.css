@@ -4980,8 +4980,8 @@ input[type="password"]::-ms-reveal {
 
 /*INSIGHT*/
 .middle-slide-holder {
-  max-width: 750px;
-  margin: 120px auto;
+  max-width: 900px;
+  margin: 160px auto;
 }
 
 .session-list {
@@ -8587,6 +8587,9 @@ div.ck-editor__editable {
   .support-holder {
     margin-right: 30em !important;
   }
+  .middle-slide-holder {
+    max-width: 750px;
+  }
 }
 
 @media (max-width: 1380px) {
@@ -10095,7 +10098,7 @@ div.ck-editor__editable {
     width: 330px;
   }
   .middle-slide-holder {
-    margin: 120px 0 auto 100px;
+    margin: 160px 0 auto 100px;
   }
 }
 
@@ -10887,7 +10890,7 @@ div.ck-editor__editable {
   }
   .middle-slide-holder {
     max-width: 100%;
-    margin: 120px auto;
+    margin: 160px auto;
     margin-bottom: 0px;
   }
   .session-list li {
@@ -12156,7 +12159,7 @@ div.ck-editor__editable {
     max-width: 100%;
   }
   .middle-slide-holder {
-    margin: 120px auto;
+    margin: 160px auto;
   }
   .mind_holder {
     margin: 0 auto;
@@ -13518,7 +13521,7 @@ div.ck-editor__editable {
     padding-bottom: 20px !important;
   }
   .middle-slide-holder {
-    margin: 100px auto;
+    margin: 160px auto;
     margin-bottom: 126px;
   }
   .session-list {
@@ -15014,7 +15017,7 @@ div.ck-editor__editable {
     padding-bottom: 20px !important;
   }
   .middle-slide-holder {
-    margin: 100px auto;
+    margin: 160px auto;
     margin-bottom: 126px;
   }
   .session-list {
