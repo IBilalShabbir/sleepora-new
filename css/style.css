@@ -763,11 +763,12 @@ img {
 }
 .left-bar .box-1 .progress-bar span {
   color: #000;
-  font-size: 12px;
+  font-size: 22px;
   color: #191f29;
   margin: 40px 0 0;
   position: absolute;
 }
+
 .left-bar select {
   border: 0;
   width: 100%;
@@ -5829,6 +5830,17 @@ input[type="password"]::-ms-reveal {
   text-align: center;
   letter-spacing: 0.015em;
 }
+.box__1__text {
+  color: #000 !important;
+  width: 100% !important;
+  font-size: 22px !important;
+  line-height: 21px !important;
+  font-weight: 400 !important;
+  display: block !important;
+  margin: 10px 0 0 !important;
+  text-align: center !important;
+  letter-spacing: 0.015em !important;
+}
 .stick-holder .column:nth-child(2) {
   align-content: center;
 }
@@ -9555,6 +9567,9 @@ div.ck-editor__editable {
   }
 }
 @media (max-width: 767px) {
+  .box__1__text {
+    font-size: 16px !important;
+  }
   .stick-holder .column:nth-child(1) .box-1:nth-child(2):after {
     top: 126px;
     right: 265px;
@@ -12674,7 +12689,11 @@ div.ck-editor__editable {
     margin: 0 0 40px;
     flex-direction: column-reverse;
   }
-
+  .box__1__text {
+    font-size: 10px !important;
+    line-height: 10px !important;
+    margin: 5px 0 0 !important;
+  }
   .video_section .video_holder .text-box {
     width: 100%;
     margin: 0 0 20px;
