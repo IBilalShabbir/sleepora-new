@@ -539,11 +539,10 @@ img {
 }
 .mind_holder .mind_columns .center-img-holder em {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 22px;
   text-align: center;
   font-style: normal;
-  letter-spacing: 0.015em;
   color: #b56f2a;
 }
 .mind_holder .mind_columns .center-img-holder img {
@@ -8573,7 +8572,7 @@ div.ck-editor__editable {
     margin: 60px auto 0;
   }
   .mind_holder .mind_columns .column .holder_1 {
-    padding: 10px 20px;
+    padding: 20px 20px;
   }
   .mind_holder .mind_columns .column .holder_1 span {
     font-size: 20px;
@@ -10208,9 +10207,7 @@ div.ck-editor__editable {
     height: auto;
     margin: 60px auto 0;
   }
-  .mind_holder .mind_columns .column .holder_1 {
-    padding: 10px 20px;
-  }
+
   .mind_holder .mind_columns .column .holder_1 span {
     font-size: 20px;
     line-height: 24px;
@@ -13727,7 +13724,7 @@ div.ck-editor__editable {
     line-height: 14px;
   }
   .mind_holder .mind_columns .column .holder_1 {
-    padding: 10px;
+    padding: 20px 10px;
   }
   .mind_holder .mind_columns .column .holder_1 .img-holder img {
     width: 40px;
