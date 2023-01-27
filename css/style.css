@@ -4743,7 +4743,7 @@ input[type="password"]::-ms-reveal {
 }
 .video-slider {
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 60px auto;
 }
 
@@ -9454,6 +9454,9 @@ div.ck-editor__editable {
     flex-wrap: wrap;
     margin: 0 0 30px;
     justify-content: center;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
   }
   .editor_holder .left-img span {
     display: block;
@@ -11049,13 +11052,6 @@ div.ck-editor__editable {
   .editor_holder {
     flex-wrap: wrap;
   }
-  .editor_holder .left-img {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 0 30px;
-    justify-content: center;
-  }
   .editor_holder .left-img span {
     display: block;
     width: 100%;
@@ -12215,11 +12211,14 @@ div.ck-editor__editable {
   .mind_holder .mind_columns .center-img-holder em {
     font-size: 15px;
   }
+
   .sleep-score-holder .sleep_frame .bar-holder .column .bottom-text {
     white-space: nowrap;
     word-break: normal;
   }
-
+  .slick-slide {
+    overflow: hidden;
+  }
   /*#wrapper{
 =======
     .prescription-holder {
@@ -14008,9 +14007,7 @@ div.ck-editor__editable {
   .editor_holder .left-img span {
     font-size: 10px;
   }
-  .editor_holder .left-img {
-    margin: 0;
-  }
+
   .editor_holder .home {
     margin: 10px;
     width: 100%;
