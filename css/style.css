@@ -4759,7 +4759,7 @@ input[type="password"]::-ms-reveal {
   max-width: inherit !important;
 }
 .video-slider iframe {
-  width: 900px;
+  width: 100%;
   /*height: 448px;*/
   height: 600px;
   display: block;
@@ -7772,8 +7772,10 @@ input {
 }
 
 .editor_holder .home {
-  width: 80%;
+  width: 100%;
   margin: 30px;
+  margin-left: 0em;
+  margin-right: 0em;
   padding: 30px 20px 0;
   background: #ffffff;
   border-radius: 20px;
@@ -7837,7 +7839,7 @@ div.ck-editor__editable {
 .editor_holder .home input[type="submit"] {
   margin: 20px;
   display: inline-block;
-  padding: 10px 47px;
+  padding: 10px 30px;
   font-weight: 600;
   font-size: 18px;
   line-height: 21px;
@@ -7846,7 +7848,7 @@ div.ck-editor__editable {
   background: #fffa79;
   border-radius: 8px;
   position: absolute;
-  left: -20px;
+  left: 0px;
   bottom: 60px;
   box-shadow: -5px -4px 9px 2px rgba(201, 200, 200, 0.5),
     4px 4px 6px rgba(104, 132, 157, 0.2);
@@ -8211,6 +8213,10 @@ div.ck-editor__editable {
   margin-top: 2em;
   color: #7284a6;
 }
+.editor_holder .left-img span {
+  font-size: 12px;
+  margin-bottom: 40px;
+}
 /*Media Quries*/
 
 @media (max-width: 1699px) {
@@ -8286,10 +8292,10 @@ div.ck-editor__editable {
   .support-holder {
     margin-right: 30em !important;
   }
-  .editor_holder .left-img span {
+  /* .editor_holder .left-img span {
     font-size: 12px;
     margin-bottom: 40px;
-  }
+  } */
   .slider_holder {
     max-width: 90%;
     margin: 80px auto;
@@ -8507,6 +8513,7 @@ div.ck-editor__editable {
   }
   .editor_holder .home input[type="submit"] {
     margin: 20px;
+    margin-left: 0px;
     margin-top: 40px;
     padding: 10px 47px;
   }
@@ -14038,14 +14045,14 @@ div.ck-editor__editable {
     height: 100px;
   }
   .editor_holder .home input[type="submit"] {
-    width: 120px;
+    width: 80px;
     height: 30px;
     font-size: 10px;
     line-height: 10px;
     padding: 5px;
     text-align: center;
     position: absolute;
-    top: 100%;
+    top: 225px;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -15539,19 +15546,7 @@ div.ck-editor__editable {
   div.ck-editor__editable {
     height: 100px;
   }
-  .editor_holder .home input[type="submit"] {
-    width: 120px;
-    height: 30px;
-    font-size: 10px;
-    line-height: 10px;
-    padding: 5px;
-    text-align: center;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-  }
+
   .quiz-holder h3 {
     font-size: 20px;
     line-height: 28px;
