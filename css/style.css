@@ -5180,7 +5180,7 @@ input[type="password"]::-ms-reveal {
 /*stress-holder*/
 .stress-holder {
   max-width: 833px;
-  margin: 40px auto 0;
+  margin: 120px auto 0;
 }
 .stress-holder .stress-box {
   display: flex;
@@ -8348,7 +8348,7 @@ div.ck-editor__editable {
     margin: 100px 0 0 150px;
   }
   .stress-holder {
-    margin: 40px 0 0 30px;
+    margin: 120px 0 0 30px;
   }
   .prescription-holder {
     margin: 160px auto 0 40px;
@@ -8462,7 +8462,7 @@ div.ck-editor__editable {
     margin-left: auto;
   }
   .stress-holder {
-    margin: 40px auto;
+    margin: 120px auto;
   }
   .slider_holder .left-slide-holde .slider-nav {
     width: 100% !important;
@@ -9303,7 +9303,7 @@ div.ck-editor__editable {
   }
   .stress-holder {
     max-width: 100%;
-    margin: 40px auto;
+    margin: 120px auto;
   }
   .stress-holder .stress-box {
     padding: 10px 40px 10px 26px;
@@ -10909,7 +10909,7 @@ div.ck-editor__editable {
   }
   .stress-holder {
     max-width: 100%;
-    margin: 40px auto;
+    margin: 120px auto;
   }
 
   .stress-holder .stress-box span,
@@ -13610,7 +13610,7 @@ div.ck-editor__editable {
     transform: rotate(95deg);
   }
   .stress-holder {
-    margin: 40px auto;
+    margin: 120px auto;
   }
   .stress-holder .stress-box {
     padding: 10px 20px 10px 10px;
