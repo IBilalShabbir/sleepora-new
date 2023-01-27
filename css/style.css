@@ -5966,7 +5966,7 @@ input[type="password"]::-ms-reveal {
 
 .sleep-score-holder {
   width: 970px;
-  margin: 150px auto;
+  margin: 160px auto;
 }
 .sleep-score-holder .sleep_frame {
   width: 100%;
@@ -8342,7 +8342,7 @@ div.ck-editor__editable {
     width: 100%;
   }
   .sleep-score-holder {
-    margin: 150px 0 0 30px;
+    margin: 160px 0 0 30px;
   }
   .carousel-slider-holder {
     margin: 100px 0 0 150px;
@@ -8671,7 +8671,7 @@ div.ck-editor__editable {
   .sleep-score-holder {
     width: calc(100% - 1em);
     max-width: 100%;
-    margin: 120px auto;
+    margin: 160px auto;
   }
 
   .sleep-score-holder .sleep-plan .plan-columns .column .img-box {
