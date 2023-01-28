@@ -8328,7 +8328,7 @@ div.ck-editor__editable {
   cursor: pointer;
 }
 .negative__emotions__scection__container__entry__green {
-  background-color: #C8E1A7;
+  background-color: #c8e1a7;
   color: white;
 }
 .negative__emotions__scection__container__entry:hover {
@@ -8348,7 +8348,7 @@ div.ck-editor__editable {
   text-align: center;
   color: #0081ae;
 }
-.negative__emotions__scection__save{
+.negative__emotions__scection__save {
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -8364,19 +8364,20 @@ div.ck-editor__editable {
   justify-content: flex-end;
   align-items: center;
 }
-.negative__emotions__scection__save__btn{
-  background-color: #b98c05;
-  color: white;
+.negative__emotions__scection__save__btn {
+  background-color: #ffd966;
+  color: #0070c0;
   padding: 0em 3em;
+  font-weight: 400;
   height: 37px;
   border-radius: 10px;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #b98c05;
+  border: 1px solid #FFD966;
 }
-.negative__emotions__scection__save__btn:hover{
+.negative__emotions__scection__save__btn:hover {
   background-color: #fdcc32;
   border-color: #fdcc32;
 }
