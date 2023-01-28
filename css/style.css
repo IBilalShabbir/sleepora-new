@@ -8287,6 +8287,7 @@ div.ck-editor__editable {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .negative__emotions__scection__container {
@@ -8326,6 +8327,10 @@ div.ck-editor__editable {
   margin: 0.5em;
   cursor: pointer;
 }
+.negative__emotions__scection__container__entry__green {
+  background-color: #C8E1A7;
+  color: white;
+}
 .negative__emotions__scection__container__entry:hover {
   box-shadow: -8px -8px 20px rgb(202 144 151 / 20%),
     8px 8px 20px rgb(0 0 0 / 20%);
@@ -8342,6 +8347,38 @@ div.ck-editor__editable {
   font-size: 16px;
   text-align: center;
   color: #0081ae;
+}
+.negative__emotions__scection__save{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  max-width: 900px;
+  margin: 0px auto 0;
+  padding: 2em;
+  padding-right: 0em;
+  position: relative;
+  border-radius: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.negative__emotions__scection__save__btn{
+  background-color: #b98c05;
+  color: white;
+  padding: 0em 3em;
+  height: 37px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #b98c05;
+}
+.negative__emotions__scection__save__btn:hover{
+  background-color: #fdcc32;
+  border-color: #fdcc32;
 }
 /*Media Quries*/
 
@@ -8381,7 +8418,10 @@ div.ck-editor__editable {
     margin: 160px auto 0;
   }
   .negative__emotions__scection {
-    margin: 100px 0 0 80px;
+    margin: 160px 0 0 80px;
+  }
+  .negative__emotions__scection__save {
+    margin: 0px 0 0 80px;
   }
   /* .slider_holder .slick-initialized .slick-slide {
     padding: 0px 0px;
@@ -8392,7 +8432,10 @@ div.ck-editor__editable {
     width: 55%;
   }
   .negative__emotions__scection {
-    margin: 100px 0 0 30px;
+    margin: 160px 0 0 30px;
+  }
+  .negative__emotions__scection__save {
+    margin: 0px 0 0 30px;
   }
   .prescription-holder .column-holder .column-3 p {
     width: 60% !important;
@@ -8445,6 +8488,9 @@ div.ck-editor__editable {
     margin-left: 150px;
   }
   .negative__emotions__scection {
+    max-width: 800px;
+  }
+  .negative__emotions__scection__save {
     max-width: 800px;
   }
   .alert-section {
@@ -8565,7 +8611,13 @@ div.ck-editor__editable {
   .negative__emotions__scection {
     width: calc(100% - 2em);
     max-width: 800px;
-    margin: 100px auto;
+    margin: 160px auto;
+    margin-bottom: 0px;
+  }
+  .negative__emotions__scection__save {
+    width: 100%;
+    max-width: 800px;
+    margin: 0px auto;
   }
   .negative__emotions__scection__container__entry {
     max-width: 140px;
@@ -8668,8 +8720,8 @@ div.ck-editor__editable {
     padding: 10px 47px;
   }
 }
-@media (max-width: 900px){
-  .negative__emotions__scection__container__entry{
+@media (max-width: 900px) {
+  .negative__emotions__scection__container__entry {
     flex: 1;
     max-width: 180px;
   }
@@ -12353,7 +12405,7 @@ div.ck-editor__editable {
   .sidebar__new__entry span {
     font-size: 12px;
   }
-  .negative__emotions__scection__container__entry{
+  .negative__emotions__scection__container__entry {
     flex: 1;
     min-width: 47%;
     max-width: 100%;
