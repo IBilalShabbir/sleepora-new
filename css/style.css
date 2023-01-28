@@ -8228,6 +8228,45 @@ div.ck-editor__editable {
   font-size: 12px;
   margin-bottom: 40px;
 }
+.column__holder__content__container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 4em 6em;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.column__holder__content__container__heading {
+  font-size: 38px;
+  font-weight: 500;
+  text-align: center;
+  color: #7284a6;
+}
+.column__holder__content {
+  height: 100%;
+  width: 100%;
+  max-width: 800px;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.column__holder__content__entry {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0em 1em;
+}
+.column__holder__content__entry svg {
+  width: 80px;
+  height: 80px;
+}
 /*Media Quries*/
 
 @media (max-width: 1699px) {
@@ -9050,6 +9089,21 @@ div.ck-editor__editable {
   }
 }
 @media (max-width: 991px) {
+  .column__holder__content__container {
+    padding: 2em 4em;
+  }
+  .column__holder__content {
+    min-height: 200px;
+    flex-wrap: wrap;
+    margin: 2em auto;
+  }
+  .column__holder__content__entry svg {
+    width: 70px;
+    height: 70px;
+  }
+  .column__holder__content__container__heading {
+    font-size: 22px;
+  }
   .prescription-holder {
     max-width: 600px;
   }
@@ -12211,7 +12265,12 @@ div.ck-editor__editable {
   .mind_holder .mind_columns .center-img-holder em {
     font-size: 15px;
   }
-
+  .column__holder__content__entry{
+    margin-bottom: 1em;
+  }
+  .column__holder__content__entry:last-child{
+    margin-bottom: 0em;
+  }
   .sleep-score-holder .sleep_frame .bar-holder .column .bottom-text {
     white-space: nowrap;
     word-break: normal;
