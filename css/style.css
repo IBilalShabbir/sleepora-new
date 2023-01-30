@@ -8290,7 +8290,7 @@ div.ck-editor__editable {
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.distortion__negative__emotions__scection{
+.distortion__negative__emotions__scection {
   width: 100%;
   max-width: 980px;
 }
@@ -8368,7 +8368,7 @@ div.ck-editor__editable {
   justify-content: flex-end;
   align-items: center;
 }
-.distortion__negative__emotions__scection__save{
+.distortion__negative__emotions__scection__save {
   max-width: 980px;
 }
 .negative__emotions__scection__save__btn {
@@ -8428,6 +8428,7 @@ div.ck-editor__editable {
   .negative__emotions__scection {
     margin: 160px 0 0 80px;
   }
+
   .negative__emotions__scection__save {
     margin: 0px 0 0 80px;
   }
@@ -8442,6 +8443,7 @@ div.ck-editor__editable {
   .negative__emotions__scection {
     margin: 160px 0 0 30px;
   }
+
   .negative__emotions__scection__save {
     margin: 0px 0 0 30px;
   }
@@ -8498,10 +8500,10 @@ div.ck-editor__editable {
   .negative__emotions__scection {
     max-width: 800px;
   }
-  .distortion__negative__emotions__scection{
+  .distortion__negative__emotions__scection {
     max-width: 980px;
   }
-  .distortion__negative__emotions__scection__save{
+  .distortion__negative__emotions__scection__save {
     max-width: 980px !important;
   }
   .negative__emotions__scection__save {
@@ -8611,11 +8613,11 @@ div.ck-editor__editable {
     margin: 80px auto;
   }
 }
-@media(max-width: 1330px){
-  .distortion__negative__emotions__scection{
+@media (max-width: 1330px) {
+  .distortion__negative__emotions__scection {
     max-width: 800px;
   }
-  .distortion__negative__emotions__scection__save{
+  .distortion__negative__emotions__scection__save {
     max-width: 800px !important;
   }
 }
@@ -8634,6 +8636,9 @@ div.ck-editor__editable {
     max-width: 800px;
     margin: 120px auto;
     margin-bottom: 0px;
+  }
+  .motivation__holder {
+    margin: 120px auto;
   }
   .negative__emotions__scection__save {
     width: 100%;
@@ -16034,7 +16039,7 @@ div.ck-editor__editable {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: .7em;
+  margin-bottom: 0.7em;
 }
 .distortions__container__item__two {
   width: 50%;
@@ -16129,11 +16134,413 @@ div.ck-editor__editable {
   box-shadow: -8px -8px 20px rgba(122, 134, 151, 0.25),
     8px 8px 20px rgba(0, 0, 0, 0.25);
 }
-@media(max-width: 1200px) {
+@media (max-width: 1200px) {
   .distortion__negative__emotions__scection {
     width: calc(100% - 1em);
   }
   .distortion__negative__emotions__scection__save {
     width: calc(100% - 1em);
+  }
+}
+.motivation__holder {
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  margin: 220px auto 0;
+  height: 100%;
+}
+.motivation__holder__left__btns {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -50px;
+}
+.motivation__holder__left__btns__entry {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: row-reverse;
+}
+.motivation__holder__left__btns__entry__btn {
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  border: none;
+  background-color: transparent;
+}
+
+.motivation__holder__left__btns__entry__heading {
+  font-size: 16px;
+  font-weight: 500;
+  color: #646464;
+  margin-right: 1em;
+}
+
+.motivation__holder__left__btns__entry:nth-child(2) {
+  left: -30px;
+  top: -30px;
+}
+.motivation__holder__left__btns__entry:nth-child(3) {
+  right: -10px;
+  top: -72px;
+}
+.motivation__holder__left__btns__entry:nth-child(4) {
+  left: -10px;
+  top: -105px;
+}
+.motivation__holder__left__btns__entry:nth-child(5) {
+  left: 15px;
+  top: -147px;
+}
+
+.motivation__holder__middle {
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.motivation__holder__middle svg {
+  width: 450px;
+  height: 380px;
+}
+.motivation__holder__right__btns {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -50px;
+}
+.motivation__holder__right__btns__entry {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.motivation__holder__right__btns__entry__btn {
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  border: none;
+  background-color: transparent;
+}
+.motivation__holder__right__btns__entry__heading {
+  font-size: 16px;
+  font-weight: 500;
+  color: #646464;
+  margin-left: 1em;
+}
+.motivation__holder__right__btns__entry:nth-child(2) {
+  left: 60px;
+  top: -45px;
+}
+.motivation__holder__right__btns__entry:nth-child(3) {
+  left: 10px;
+  top: -80px;
+}
+.motivation__holder__right__btns__entry:nth-child(4) {
+  left: 65px;
+  top: -122px;
+}
+.motivation__holder__right__btns__entry:nth-child(5) {
+  left: 15px;
+  top: -160px;
+}
+.motivation__holder__middle__heading {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  max-width: 200px;
+  font-size: 22px;
+  color: #646464;
+  margin-top: 0.5em;
+  text-align: center;
+}
+@media (max-width: 1745px) {
+  .motivation__holder {
+    margin: 160px 0 0 80px;
+  }
+}
+@media (max-width: 1630px) {
+  .motivation__holder {
+    margin: 160px 0 0 30px;
+  }
+}
+@media (max-width: 1350px) {
+  .motivation__holder__middle svg {
+    width: 400px;
+  }
+  .motivation__holder__middle__heading {
+    max-width: 100px;
+    font-size: 18px;
+  }
+  .motivation__holder__right__btns__entry__heading {
+    max-width: 100px;
+  }
+  .motivation__holder__left__btns__entry__heading {
+    max-width: 100px;
+  }
+}
+@media (max-width: 1250px) {
+  .motivation__holder__middle svg {
+    width: 370px;
+    height: 380px;
+  }
+}
+@media (max-width: 1200px) {
+  .motivation__holder {
+    margin: 160px -10px auto;
+    justify-content: center;
+    margin-bottom: 0px;
+  }
+  .motivation__holder__middle svg {
+    width: 350px;
+  }
+  .motivation__holder__left__btns {
+    top: 0px;
+  }
+  .motivation__holder__right__btns {
+    top: 0px;
+  }
+  .motivation__holder__middle__heading {
+    max-width: 150px;
+    font-size: 15px;
+  }
+  .motivation__holder__left__btns__entry__btn {
+    width: 100px;
+  }
+  .motivation__holder__right__btns__entry__btn {
+    width: 100px;
+  }
+  .motivation__holder__left__btns__entry__heading {
+    font-size: 14px;
+  }
+  .motivation__holder__right__btns__entry__heading {
+    font-size: 14px;
+    max-width: 80px;
+  }
+  .motivation__holder__left__btns__entry:nth-child(2) {
+    left: -25px;
+    top: -25px;
+  }
+  .motivation__holder__left__btns__entry:nth-child(3) {
+    right: -5px;
+    top: -60px;
+  }
+  .motivation__holder__left__btns__entry:nth-child(4) {
+    left: -5px;
+    top: -88px;
+  }
+  .motivation__holder__left__btns__entry:nth-child(5) {
+    left: 16px;
+    top: -127px;
+  }
+  .motivation__holder__right__btns__entry:nth-child(2) {
+    left: 50px;
+    top: -36px;
+  }
+  .motivation__holder__right__btns__entry:nth-child(3) {
+    left: 10px;
+    top: -62px;
+  }
+  .motivation__holder__right__btns__entry:nth-child(4) {
+    left: 58px;
+    top: -98px;
+  }
+  .motivation__holder__right__btns__entry:nth-child(5) {
+    left: 17px;
+    top: -125px;
+  }
+}
+@media (max-width: 850px) {
+  .motivation__holder__middle svg {
+    width: 200px;
+  }
+  .motivation__holder__left__btns__entry__btn {
+    width: 60px;
+  }
+  .motivation__holder__left__btns {
+    top: 70px;
+  }
+  .motivation__holder__right__btns {
+    top: 70px;
+  }
+  .motivation__holder__right__btns__entry__btn {
+    width: 60px;
+  }
+  .motivation__holder__left__btns__entry:nth-child(2) {
+    left: -8px;
+    top: -18px;
+  }
+  .motivation__holder__left__btns__entry:nth-child(3) {
+    right: 0px;
+    top: -40px;
+  }
+  .motivation__holder__left__btns__entry:nth-child(4) {
+    left: 7px;
+    top: -58px;
+  }
+  .motivation__holder__left__btns__entry:nth-child(5) {
+    left: 10px;
+    top: -80px;
+  }
+  .motivation__holder__right__btns__entry:nth-child(2) {
+    left: 30px;
+    top: -22px;
+  }
+  .motivation__holder__right__btns__entry:nth-child(3) {
+    left: 5px;
+    top: -42px;
+  }
+  .motivation__holder__right__btns__entry:nth-child(4) {
+    left: 32px;
+    top: -65px;
+  }
+  .motivation__holder__right__btns__entry:nth-child(5) {
+    left: 8px;
+    top: -82px;
+  }
+  .motivation__holder__middle__heading {
+    font-size: 12px;
+    width: 50px;
+  }
+  .motivation__holder{
+    margin: 120px auto;
+  }
+}
+@media (max-width: 560px) {
+  .motivation__holder{
+    margin: 0px -10px auto;
+  }
+  .motivation__holder__middle svg {
+    width: 150px;
+  }
+  .motivation__holder__left__btns__entry__btn {
+    width: 40px;
+  }
+  .motivation__holder__left__btns {
+    top: 110px;
+  }
+  .motivation__holder__right__btns {
+    top: 110px;
+  }
+  .motivation__holder__right__btns__entry__btn {
+    width: 40px;
+  }
+  .motivation__holder__right__btns__entry__heading {
+    font-size: 11px;
+  }
+  .motivation__holder__left__btns__entry__heading {
+    font-size: 11px;
+    max-width: 70px;
+    text-align: right;
+    margin-right: 0.5em;
+  }
+  .motivation__holder__middle__heading {
+    font-size: 8px;
+    width: 50px;
+  }
+
+  .motivation__holder__right__btns__entry__heading {
+    font-size: 11px;
+    max-width: 50px;
+    line-height: 10px;
+    text-align: left;
+    margin-left: 0.5em;
+  }
+  .motivation__holder__left__btns__entry:nth-child(2) {
+    left: -4px;
+    top: -10px;
+  }
+  .motivation__holder__left__btns__entry:nth-child(3) {
+    right: -3px;
+    top: -27px;
+  }
+  .motivation__holder__left__btns__entry:nth-child(4) {
+    left: 8px;
+    top: -40px;
+  }
+  .motivation__holder__left__btns__entry:nth-child(5) {
+    left: 7px;
+    top: -55px;
+  }
+  .motivation__holder__right__btns__entry:nth-child(2) {
+    left: 20px;
+    top: -15px;
+  }
+  .motivation__holder__right__btns__entry:nth-child(3) {
+    left: 5px;
+    top: -28px;
+  }
+  .motivation__holder__right__btns__entry:nth-child(4) {
+    left: 8px;
+    top: -10px;
+  }
+  .motivation__holder__right__btns__entry:nth-child(5) {
+    left: 25px;
+    top: -85px;
+  }
+}
+@media (max-width: 400px) {
+  .motivation__holder__left__btns__entry__heading {
+    font-size: 8px;
+    max-width: 54px;
+  }
+  .motivation__holder__right__btns__entry__heading {
+    font-size: 8px;
+    max-width: 50px;
+  }
+  .motivation__holder {
+    margin: 160px - 5px auto;
+  }
+
+  .motivation__holder__middle svg {
+    width: 140px;
+  }
+  .motivation__holder__left__btns__entry__btn {
+    width: 40px;
+  }
+  .motivation__holder__left__btns {
+    top: 110px;
+  }
+  .motivation__holder__right__btns {
+    top: 110px;
+  }
+  .motivation__holder__right__btns__entry__btn {
+    width: 40px;
+  }
+  .motivation__holder__left__btns__entry:nth-child(2) {
+    left: -8px;
+    top: -10px;
+  }
+  .motivation__holder__left__btns__entry:nth-child(3) {
+    right: -3px;
+    top: -27px;
+  }
+  .motivation__holder__left__btns__entry:nth-child(4) {
+    left: 2px;
+    top: -40px;
+  }
+  .motivation__holder__left__btns__entry:nth-child(5) {
+    left: 5px;
+    top: -55px;
+  }
+  .motivation__holder__right__btns__entry:nth-child(2) {
+    left: 20px;
+    top: -15px;
+  }
+  .motivation__holder__right__btns__entry:nth-child(3) {
+    left: 5px;
+    top: -28px;
+  }
+  .motivation__holder__right__btns__entry:nth-child(4) {
+    left: 8px;
+    top: -10px;
+  }
+  .motivation__holder__right__btns__entry:nth-child(5) {
+    left: 25px;
+    top: -85px;
   }
 }
