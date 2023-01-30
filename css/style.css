@@ -16170,6 +16170,12 @@ div.ck-editor__editable {
   background-color: transparent;
 }
 
+.motivation__holder__left__btns__entry__btn:hover ~ .motivation__holder__left__btns__entry__heading{
+  color: #b98c05;
+}
+.motivation__holder__right__btns__entry__btn:hover ~ .motivation__holder__right__btns__entry__heading{
+  color: #b98c05;
+}
 .motivation__holder__left__btns__entry__heading {
   font-size: 16px;
   font-weight: 500;
