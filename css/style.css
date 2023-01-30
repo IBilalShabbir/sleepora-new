@@ -8290,6 +8290,10 @@ div.ck-editor__editable {
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.distortion__negative__emotions__scection{
+  width: 100%;
+  max-width: 980px;
+}
 .negative__emotions__scection__container {
   width: 100%;
   height: 100%;
@@ -8363,6 +8367,9 @@ div.ck-editor__editable {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+.distortion__negative__emotions__scection__save{
+  max-width: 980px;
 }
 .negative__emotions__scection__save__btn {
   background-color: #ffd966;
@@ -8491,6 +8498,12 @@ div.ck-editor__editable {
   .negative__emotions__scection {
     max-width: 800px;
   }
+  .distortion__negative__emotions__scection{
+    max-width: 980px;
+  }
+  .distortion__negative__emotions__scection__save{
+    max-width: 980px !important;
+  }
   .negative__emotions__scection__save {
     max-width: 800px;
   }
@@ -8598,7 +8611,14 @@ div.ck-editor__editable {
     margin: 80px auto;
   }
 }
-
+@media(max-width: 1330px){
+  .distortion__negative__emotions__scection{
+    max-width: 800px;
+  }
+  .distortion__negative__emotions__scection__save{
+    max-width: 800px !important;
+  }
+}
 @media (max-width: 1200px) {
   .calander-holder {
     justify-content: space-between;
@@ -8612,7 +8632,7 @@ div.ck-editor__editable {
   .negative__emotions__scection {
     width: calc(100% - 2em);
     max-width: 800px;
-    margin: 160px auto;
+    margin: 120px auto;
     margin-bottom: 0px;
   }
   .negative__emotions__scection__save {
@@ -16001,6 +16021,7 @@ div.ck-editor__editable {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 1em;
 }
 .distortions__container__item {
   width: 50%;
@@ -16013,6 +16034,7 @@ div.ck-editor__editable {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: .7em;
 }
 .distortions__container__item__two {
   width: 50%;
@@ -16106,4 +16128,12 @@ div.ck-editor__editable {
   border-radius: 20px;
   box-shadow: -8px -8px 20px rgba(122, 134, 151, 0.25),
     8px 8px 20px rgba(0, 0, 0, 0.25);
+}
+@media(max-width: 1200px) {
+  .distortion__negative__emotions__scection {
+    width: calc(100% - 1em);
+  }
+  .distortion__negative__emotions__scection__save {
+    width: calc(100% - 1em);
+  }
 }
